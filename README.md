@@ -1,25 +1,13 @@
 # data-visualization-week-17-core-assignment-1---Resampling-Datetime-Data
 
 
-```
-Assignment Feedback:
+***
 
-Great start on this assignment. A couple of things to fix
-
-Question 1: 
-1. Something to consider for your missing values. Instead of using backward fill for precipitation and snow_depth, consider that the missing values can be 0. It does not snow every day and there isn't precipitation every single day either. 
-2. You needed to use .resample(""M"").sum() instead of .asfreq(). You only grabbed a single value for each month, not the sum of all precipitation for that month. Because of this, your answer for Q1 is incorrect.
-3. When finding the date and corresponding max precipitation value, we want to specify the column. date_max = df['precipitation'].idxmax()
-max_precip = df['precipitation'].max()
-4. Once you have correctly resampled, the plot should change to the correct value. Currently your graph is saying the highest precipitation is April 2002, which is also incorrect. 
-
-Question 2: 
-1. Similar to question one, you needed to use .resample(""A"").sum() instead of .asfreq() Because of this your answer is incorrect. 
-2.  Use the same suggestion to find the data and corresponding max precipitation value but for mean_temp. "
-```
+## Assignment Feedback:
 
 <image src = feedback.png >
 
+***
 
 ## (Core) Resampling Datetime Data
 
