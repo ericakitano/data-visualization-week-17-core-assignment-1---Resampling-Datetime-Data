@@ -18,7 +18,7 @@ Question 2:
 2.  Use the same suggestion to find the data and corresponding max precipitation value but for mean_temp. "
 ```
 
-
+<image src = feedback.png >
 
 
 ## (Core) Resampling Datetime Data
